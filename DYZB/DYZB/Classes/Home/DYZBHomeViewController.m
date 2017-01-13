@@ -47,6 +47,7 @@
 
 - (void)leftItemClick
 {
+    NSLog(@"chenlaoshi");
     NSLog(@"%s",__FUNCTION__);
 }
 
