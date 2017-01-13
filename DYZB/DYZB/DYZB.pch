@@ -1,0 +1,22 @@
+//
+//  DYZB.pch
+//  DYZB
+//
+//  Created by Apple's Mac on 2017/1/13.
+//  Copyright © 2017年 Apple's Mac. All rights reserved.
+//
+
+#ifndef DYZB_pch
+#define DYZB_pch
+
+#include <Masonry.h>
+
+#define kNormalRGB [UIColor colorWithRed:85/255.0 green:85/255.0 blue:85/255.0 alpha:1.0]
+#define kSelectRGB [UIColor colorWithRed:255/255.0 green:128/255.0 blue:0/255.0 alpha:1.0]
+
+//#define kDeltaRGB  [UIColor colorWithRed:kSelectRGB.0 - kNormalRGB.0 green:kSelectRGB.1 - kNormalRGB.1 blue:kSelectRGB.2 - kNormalRGB.2 alpha:1.0]
+
+#define kNormalTitleColor [UIColor colorWithRed:85/255.0 green:85/255.0 blue:85/255.0 alpha:1.0]
+#define kSelectTitleColor [UIColor colorWithRed:255.0/255.0 green:128/255.0 blue:0/255.0 alpha:1.0]
+
+#endif /* DYZB_pch */

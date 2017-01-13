@@ -17,7 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="BUf-eh-vfH"/>
                 </viewController>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="79" y="138"/>
         </scene>
-        <!--View Controller-->
+        <!--Follow View Controller-->
         <scene sceneID="ST4-8w-OM3">
             <objects>
-                <viewController id="2rN-61-wzH" sceneMemberID="viewController">
+                <viewController id="2rN-61-wzH" customClass="DYZBFollowViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ofg-eF-Xx9"/>
                         <viewControllerLayoutGuide type="bottom" id="EAy-OP-TxN"/>
@@ -58,7 +58,7 @@
                     <view key="view" contentMode="scaleToFill" id="nKh-mF-u5M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.52809246854660863" blue="0.99792435399880464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="RFE-N1-uOa"/>
                 </viewController>
@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="2104.8000000000002" y="451.12443778110946"/>
         </scene>
-        <!--View Controller-->
+        <!--Live View Controller-->
         <scene sceneID="iFa-kH-I2g">
             <objects>
-                <viewController id="XYa-xs-owy" sceneMemberID="viewController">
+                <viewController id="XYa-xs-owy" customClass="DYZBLiveViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xCD-TF-kph"/>
                         <viewControllerLayoutGuide type="bottom" id="FWF-Xe-VpW"/>
@@ -77,7 +77,7 @@
                     <view key="view" contentMode="scaleToFill" id="ahw-Cg-YC3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.45700867488902575" green="1" blue="0.10206938036779389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="llH-Ka-BAt"/>
                 </viewController>
@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="1165.5999999999999" y="451.12443778110946"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="qaA-fX-VKd">
             <objects>
-                <viewController id="KMi-WW-vPV" sceneMemberID="viewController">
+                <viewController id="KMi-WW-vPV" customClass="DYZBProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tqu-ju-1zU"/>
                         <viewControllerLayoutGuide type="bottom" id="BnA-hI-mmO"/>
@@ -153,13 +153,13 @@
                     <view key="view" contentMode="scaleToFill" id="c4V-S0-glB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.26624968902425539" green="0.65651845168413403" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="lMN-48-pP7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntV-XT-Q3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2104.8000000000002" y="1144.6776611694154"/>
+            <point key="canvasLocation" x="2090" y="1290"/>
         </scene>
         <!--我的-->
         <scene sceneID="xCY-sC-FlO">

@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		186B4F281E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F271E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m */; };
 		186B4F5E1E28851300B4C0DF /* DYZBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F5D1E28851300B4C0DF /* DYZBHomeViewController.m */; };
+		186B4F631E28993900B4C0DF /* PageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F621E28993900B4C0DF /* PageTitleView.m */; };
+		186B4F661E28A09500B4C0DF /* PageCotentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F651E28A09500B4C0DF /* PageCotentView.m */; };
+		186B4F721E28B82400B4C0DF /* DYZBFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F711E28B82400B4C0DF /* DYZBFollowViewController.m */; };
+		186B4F751E28B83000B4C0DF /* DYZBLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F741E28B83000B4C0DF /* DYZBLiveViewController.m */; };
+		186B4F781E28B83D00B4C0DF /* DYZBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F771E28B83D00B4C0DF /* DYZBProfileViewController.m */; };
+		186B4F7B1E28B92200B4C0DF /* DYZBHomePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F7A1E28B92200B4C0DF /* DYZBHomePlayViewController.m */; };
+		186B4F7E1E28B93400B4C0DF /* DYZBHomeGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F7D1E28B93400B4C0DF /* DYZBHomeGameViewController.m */; };
+		186B4F811E28B96B00B4C0DF /* DYZBHomeFunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F801E28B96B00B4C0DF /* DYZBHomeFunnyViewController.m */; };
+		186B4F841E28B99000B4C0DF /* DYZBHomeRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186B4F831E28B99000B4C0DF /* DYZBHomeRecommendViewController.m */; };
 		18C5140D1E260B1E006F8D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140C1E260B1E006F8D34 /* main.m */; };
 		18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140F1E260B1E006F8D34 /* AppDelegate.m */; };
 		18C514161E260B1E006F8D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514141E260B1E006F8D34 /* Main.storyboard */; };
@@ -21,6 +30,25 @@
 		186B4F271E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DYZB.m"; sourceTree = "<group>"; };
 		186B4F5C1E28851300B4C0DF /* DYZBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomeViewController.h; sourceTree = "<group>"; };
 		186B4F5D1E28851300B4C0DF /* DYZBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomeViewController.m; sourceTree = "<group>"; };
+		186B4F5F1E28987000B4C0DF /* DYZB.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZB.pch; sourceTree = "<group>"; };
+		186B4F611E28993900B4C0DF /* PageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTitleView.h; sourceTree = "<group>"; };
+		186B4F621E28993900B4C0DF /* PageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTitleView.m; sourceTree = "<group>"; };
+		186B4F641E28A09500B4C0DF /* PageCotentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCotentView.h; sourceTree = "<group>"; };
+		186B4F651E28A09500B4C0DF /* PageCotentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCotentView.m; sourceTree = "<group>"; };
+		186B4F701E28B82400B4C0DF /* DYZBFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBFollowViewController.h; sourceTree = "<group>"; };
+		186B4F711E28B82400B4C0DF /* DYZBFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBFollowViewController.m; sourceTree = "<group>"; };
+		186B4F731E28B83000B4C0DF /* DYZBLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBLiveViewController.h; sourceTree = "<group>"; };
+		186B4F741E28B83000B4C0DF /* DYZBLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBLiveViewController.m; sourceTree = "<group>"; };
+		186B4F761E28B83D00B4C0DF /* DYZBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBProfileViewController.h; sourceTree = "<group>"; };
+		186B4F771E28B83D00B4C0DF /* DYZBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBProfileViewController.m; sourceTree = "<group>"; };
+		186B4F791E28B92200B4C0DF /* DYZBHomePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomePlayViewController.h; sourceTree = "<group>"; };
+		186B4F7A1E28B92200B4C0DF /* DYZBHomePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomePlayViewController.m; sourceTree = "<group>"; };
+		186B4F7C1E28B93400B4C0DF /* DYZBHomeGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomeGameViewController.h; sourceTree = "<group>"; };
+		186B4F7D1E28B93400B4C0DF /* DYZBHomeGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomeGameViewController.m; sourceTree = "<group>"; };
+		186B4F7F1E28B96B00B4C0DF /* DYZBHomeFunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomeFunnyViewController.h; sourceTree = "<group>"; };
+		186B4F801E28B96B00B4C0DF /* DYZBHomeFunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomeFunnyViewController.m; sourceTree = "<group>"; };
+		186B4F821E28B99000B4C0DF /* DYZBHomeRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHomeRecommendViewController.h; sourceTree = "<group>"; };
+		186B4F831E28B99000B4C0DF /* DYZBHomeRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHomeRecommendViewController.m; sourceTree = "<group>"; };
 		18C514081E260B1E006F8D34 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5140C1E260B1E006F8D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C5140E1E260B1E006F8D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,8 +76,8 @@
 		186B4F1D1E26210C00B4C0DF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				186B4F1E1E26210C00B4C0DF /* Follow(关注) */,
 				186B4F1F1E26210C00B4C0DF /* Home(首页) */,
+				186B4F1E1E26210C00B4C0DF /* Follow(关注) */,
 				186B4F201E26210C00B4C0DF /* Live(直播) */,
 				186B4F211E26210C00B4C0DF /* Main(主要) */,
 				186B4F221E26210C00B4C0DF /* Profile(我的) */,
@@ -61,6 +89,9 @@
 		186B4F1E1E26210C00B4C0DF /* Follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F6D1E28B7FD00B4C0DF /* Model */,
+				186B4F6E1E28B7FD00B4C0DF /* View */,
+				186B4F6F1E28B7FD00B4C0DF /* ViewController */,
 			);
 			name = "Follow(关注)";
 			path = Follow;
@@ -80,6 +111,9 @@
 		186B4F201E26210C00B4C0DF /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F6A1E28B7F400B4C0DF /* Model */,
+				186B4F6B1E28B7F400B4C0DF /* View */,
+				186B4F6C1E28B7F400B4C0DF /* ViewController */,
 			);
 			name = "Live(直播)";
 			path = Live;
@@ -96,6 +130,9 @@
 		186B4F221E26210C00B4C0DF /* Profile(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F671E28B7EE00B4C0DF /* Model */,
+				186B4F681E28B7EE00B4C0DF /* View */,
+				186B4F691E28B7EE00B4C0DF /* ViewController */,
 			);
 			name = "Profile(我的)";
 			path = Profile;
@@ -129,6 +166,7 @@
 		186B4F5A1E28851300B4C0DF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				186B4F601E28992400B4C0DF /* PageTitleView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,8 +176,128 @@
 			children = (
 				186B4F5C1E28851300B4C0DF /* DYZBHomeViewController.h */,
 				186B4F5D1E28851300B4C0DF /* DYZBHomeViewController.m */,
+				186B4F881E28B9C600B4C0DF /* 趣玩 */,
+				186B4F871E28B9BE00B4C0DF /* 游戏 */,
+				186B4F861E28B9B300B4C0DF /* 娱乐 */,
+				186B4F851E28B99700B4C0DF /* 推荐 */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		186B4F601E28992400B4C0DF /* PageTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F611E28993900B4C0DF /* PageTitleView.h */,
+				186B4F621E28993900B4C0DF /* PageTitleView.m */,
+				186B4F641E28A09500B4C0DF /* PageCotentView.h */,
+				186B4F651E28A09500B4C0DF /* PageCotentView.m */,
+			);
+			path = PageTitleView;
+			sourceTree = "<group>";
+		};
+		186B4F671E28B7EE00B4C0DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186B4F681E28B7EE00B4C0DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		186B4F691E28B7EE00B4C0DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F761E28B83D00B4C0DF /* DYZBProfileViewController.h */,
+				186B4F771E28B83D00B4C0DF /* DYZBProfileViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		186B4F6A1E28B7F400B4C0DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186B4F6B1E28B7F400B4C0DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		186B4F6C1E28B7F400B4C0DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F731E28B83000B4C0DF /* DYZBLiveViewController.h */,
+				186B4F741E28B83000B4C0DF /* DYZBLiveViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		186B4F6D1E28B7FD00B4C0DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186B4F6E1E28B7FD00B4C0DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		186B4F6F1E28B7FD00B4C0DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F701E28B82400B4C0DF /* DYZBFollowViewController.h */,
+				186B4F711E28B82400B4C0DF /* DYZBFollowViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		186B4F851E28B99700B4C0DF /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F821E28B99000B4C0DF /* DYZBHomeRecommendViewController.h */,
+				186B4F831E28B99000B4C0DF /* DYZBHomeRecommendViewController.m */,
+			);
+			name = "推荐";
+			sourceTree = "<group>";
+		};
+		186B4F861E28B9B300B4C0DF /* 娱乐 */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F7F1E28B96B00B4C0DF /* DYZBHomeFunnyViewController.h */,
+				186B4F801E28B96B00B4C0DF /* DYZBHomeFunnyViewController.m */,
+			);
+			name = "娱乐";
+			sourceTree = "<group>";
+		};
+		186B4F871E28B9BE00B4C0DF /* 游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F7C1E28B93400B4C0DF /* DYZBHomeGameViewController.h */,
+				186B4F7D1E28B93400B4C0DF /* DYZBHomeGameViewController.m */,
+			);
+			name = "游戏";
+			sourceTree = "<group>";
+		};
+		186B4F881E28B9C600B4C0DF /* 趣玩 */ = {
+			isa = PBXGroup;
+			children = (
+				186B4F791E28B92200B4C0DF /* DYZBHomePlayViewController.h */,
+				186B4F7A1E28B92200B4C0DF /* DYZBHomePlayViewController.m */,
+			);
+			name = "趣玩";
 			sourceTree = "<group>";
 		};
 		18C513FF1E260B1E006F8D34 = {
@@ -166,9 +324,6 @@
 				18C5140E1E260B1E006F8D34 /* AppDelegate.h */,
 				18C5140F1E260B1E006F8D34 /* AppDelegate.m */,
 				186B4F1D1E26210C00B4C0DF /* Classes */,
-				18C514141E260B1E006F8D34 /* Main.storyboard */,
-				18C514171E260B1E006F8D34 /* Assets.xcassets */,
-				18C5141C1E260B1E006F8D34 /* Info.plist */,
 				18C5140B1E260B1E006F8D34 /* Supporting Files */,
 			);
 			path = DYZB;
@@ -177,6 +332,10 @@
 		18C5140B1E260B1E006F8D34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18C514141E260B1E006F8D34 /* Main.storyboard */,
+				18C5141C1E260B1E006F8D34 /* Info.plist */,
+				186B4F5F1E28987000B4C0DF /* DYZB.pch */,
+				18C514171E260B1E006F8D34 /* Assets.xcassets */,
 				18C5140C1E260B1E006F8D34 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -322,8 +481,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				186B4F5E1E28851300B4C0DF /* DYZBHomeViewController.m in Sources */,
+				186B4F781E28B83D00B4C0DF /* DYZBProfileViewController.m in Sources */,
 				186B4F281E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m in Sources */,
 				18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */,
+				186B4F7B1E28B92200B4C0DF /* DYZBHomePlayViewController.m in Sources */,
+				186B4F811E28B96B00B4C0DF /* DYZBHomeFunnyViewController.m in Sources */,
+				186B4F751E28B83000B4C0DF /* DYZBLiveViewController.m in Sources */,
+				186B4F841E28B99000B4C0DF /* DYZBHomeRecommendViewController.m in Sources */,
+				186B4F631E28993900B4C0DF /* PageTitleView.m in Sources */,
+				186B4F661E28A09500B4C0DF /* PageCotentView.m in Sources */,
+				186B4F7E1E28B93400B4C0DF /* DYZBHomeGameViewController.m in Sources */,
+				186B4F721E28B82400B4C0DF /* DYZBFollowViewController.m in Sources */,
 				18C5140D1E260B1E006F8D34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +605,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CT4B4CB6GL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DYZB/DYZB.pch;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -452,6 +622,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CT4B4CB6GL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DYZB/DYZB.pch;
 				INFOPLIST_FILE = DYZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
