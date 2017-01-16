@@ -5,6 +5,8 @@
 //  Created by Apple's Mac on 2017/1/12.
 //  Copyright © 2017年 Apple's Mac. All rights reserved.
 //
+#import "HomeViewModel.h"
+
 #import "PageTitleView.h"
 #import "PageCotentView.h"
 #import "UIBarButtonItem+DYZB.h"
@@ -21,6 +23,7 @@
 @property(nonatomic, strong) PageTitleView  *titleView;
 @property(nonatomic, strong) PageCotentView *contentView;
 
+
 @end
 
 @implementation DYZBHomeViewController
@@ -33,6 +36,8 @@
     [self setupPageTitleView];
     [self setupPageContentView];
 }
+
+
 
 
 #pragma mark ---------------配置导航栏-----------------------
@@ -68,6 +73,7 @@
     _titleView.delegate = self;
     [self.view addSubview:_titleView];
 }
+
 
 - (void)setupPageContentView
 {

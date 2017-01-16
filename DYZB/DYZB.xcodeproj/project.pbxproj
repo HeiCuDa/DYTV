@@ -22,6 +22,11 @@
 		186B4FA91E2C654100B4C0DF /* RecommendHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186B4FA71E2C654100B4C0DF /* RecommendHeaderView.xib */; };
 		1872628B1E2C6A3C00AB61D4 /* CollectionNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187262891E2C6A3C00AB61D4 /* CollectionNormalCell.m */; };
 		1872628C1E2C6A3C00AB61D4 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872628A1E2C6A3C00AB61D4 /* CollectionNormalCell.xib */; };
+		187262901E2C74C600AB61D4 /* CollectionPrettyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872628E1E2C74C600AB61D4 /* CollectionPrettyCell.m */; };
+		187262911E2C74C600AB61D4 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872628F1E2C74C600AB61D4 /* CollectionPrettyCell.xib */; };
+		187262951E2C967A00AB61D4 /* DYZBHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 187262941E2C967A00AB61D4 /* DYZBHttpTool.m */; };
+		1872629A1E2C9BFA00AB61D4 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187262991E2C9BFA00AB61D4 /* HomeViewModel.m */; };
+		187262A61E2CBC3900AB61D4 /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187262A51E2CBC3900AB61D4 /* RecommendModel.m */; };
 		18C5140D1E260B1E006F8D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140C1E260B1E006F8D34 /* main.m */; };
 		18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5140F1E260B1E006F8D34 /* AppDelegate.m */; };
 		18C514161E260B1E006F8D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C514141E260B1E006F8D34 /* Main.storyboard */; };
@@ -59,6 +64,16 @@
 		187262881E2C6A3C00AB61D4 /* CollectionNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionNormalCell.h; sourceTree = "<group>"; };
 		187262891E2C6A3C00AB61D4 /* CollectionNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionNormalCell.m; sourceTree = "<group>"; };
 		1872628A1E2C6A3C00AB61D4 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		1872628D1E2C74C600AB61D4 /* CollectionPrettyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionPrettyCell.h; sourceTree = "<group>"; };
+		1872628E1E2C74C600AB61D4 /* CollectionPrettyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionPrettyCell.m; sourceTree = "<group>"; };
+		1872628F1E2C74C600AB61D4 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		187262931E2C967A00AB61D4 /* DYZBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYZBHttpTool.h; sourceTree = "<group>"; };
+		187262941E2C967A00AB61D4 /* DYZBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYZBHttpTool.m; sourceTree = "<group>"; };
+		187262961E2C97DE00AB61D4 /* URLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConfig.h; sourceTree = "<group>"; };
+		187262981E2C9BFA00AB61D4 /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		187262991E2C9BFA00AB61D4 /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		187262A41E2CBC3900AB61D4 /* RecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendModel.h; path = ../../Model/RecommendModel.h; sourceTree = "<group>"; };
+		187262A51E2CBC3900AB61D4 /* RecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendModel.m; path = ../../Model/RecommendModel.m; sourceTree = "<group>"; };
 		18C514081E260B1E006F8D34 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C5140C1E260B1E006F8D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C5140E1E260B1E006F8D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +128,7 @@
 				186B4F5B1E28851300B4C0DF /* ViewController */,
 				186B4F591E28851300B4C0DF /* Model */,
 				186B4F5A1E28851300B4C0DF /* View */,
+				187262971E2C9BE900AB61D4 /* ViewModel */,
 				186B4F8D1E2C545900B4C0DF /* 推荐 */,
 				186B4F891E2C545900B4C0DF /* 趣玩 */,
 				186B4F911E2C545900B4C0DF /* 游戏 */,
@@ -155,6 +171,7 @@
 		186B4F231E26210C00B4C0DF /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				187262921E2C967100AB61D4 /* NetTools */,
 				186B4F241E27104300B4C0DF /* category */,
 			);
 			name = "Tools(工具)";
@@ -320,6 +337,8 @@
 		186B4F8E1E2C545900B4C0DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				187262A41E2CBC3900AB61D4 /* RecommendModel.h */,
+				187262A51E2CBC3900AB61D4 /* RecommendModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -333,6 +352,9 @@
 				187262881E2C6A3C00AB61D4 /* CollectionNormalCell.h */,
 				187262891E2C6A3C00AB61D4 /* CollectionNormalCell.m */,
 				1872628A1E2C6A3C00AB61D4 /* CollectionNormalCell.xib */,
+				1872628D1E2C74C600AB61D4 /* CollectionPrettyCell.h */,
+				1872628E1E2C74C600AB61D4 /* CollectionPrettyCell.m */,
+				1872628F1E2C74C600AB61D4 /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -412,6 +434,24 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		187262921E2C967100AB61D4 /* NetTools */ = {
+			isa = PBXGroup;
+			children = (
+				187262931E2C967A00AB61D4 /* DYZBHttpTool.h */,
+				187262941E2C967A00AB61D4 /* DYZBHttpTool.m */,
+			);
+			path = NetTools;
+			sourceTree = "<group>";
+		};
+		187262971E2C9BE900AB61D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				187262981E2C9BFA00AB61D4 /* HomeViewModel.h */,
+				187262991E2C9BFA00AB61D4 /* HomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		18C513FF1E260B1E006F8D34 = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +487,7 @@
 				18C514141E260B1E006F8D34 /* Main.storyboard */,
 				18C5141C1E260B1E006F8D34 /* Info.plist */,
 				186B4F5F1E28987000B4C0DF /* DYZB.pch */,
+				187262961E2C97DE00AB61D4 /* URLConfig.h */,
 				18C514171E260B1E006F8D34 /* Assets.xcassets */,
 				18C5140C1E260B1E006F8D34 /* main.m */,
 			);
@@ -534,6 +575,7 @@
 			files = (
 				18C514181E260B1E006F8D34 /* Assets.xcassets in Resources */,
 				18C514161E260B1E006F8D34 /* Main.storyboard in Resources */,
+				187262911E2C74C600AB61D4 /* CollectionPrettyCell.xib in Resources */,
 				1872628C1E2C6A3C00AB61D4 /* CollectionNormalCell.xib in Resources */,
 				186B4FA91E2C654100B4C0DF /* RecommendHeaderView.xib in Resources */,
 			);
@@ -599,14 +641,18 @@
 				186B4FA81E2C654100B4C0DF /* RecommendHeaderView.m in Sources */,
 				186B4F281E2712AA00B4C0DF /* UIBarButtonItem+DYZB.m in Sources */,
 				18C514101E260B1E006F8D34 /* AppDelegate.m in Sources */,
+				187262901E2C74C600AB61D4 /* CollectionPrettyCell.m in Sources */,
 				1872628B1E2C6A3C00AB61D4 /* CollectionNormalCell.m in Sources */,
 				186B4F9B1E2C54CA00B4C0DF /* DYZBHomePlayViewController.m in Sources */,
+				187262951E2C967A00AB61D4 /* DYZBHttpTool.m in Sources */,
 				186B4FA11E2C54F200B4C0DF /* DYZBHomeFunnyViewController.m in Sources */,
+				187262A61E2CBC3900AB61D4 /* RecommendModel.m in Sources */,
 				186B4F751E28B83000B4C0DF /* DYZBLiveViewController.m in Sources */,
 				186B4FA41E2C550200B4C0DF /* DYZBHomeRecommendViewController.m in Sources */,
 				186B4F631E28993900B4C0DF /* PageTitleView.m in Sources */,
 				186B4F661E28A09500B4C0DF /* PageCotentView.m in Sources */,
 				186B4F9E1E2C54DF00B4C0DF /* DYZBHomeGameViewController.m in Sources */,
+				1872629A1E2C9BFA00AB61D4 /* HomeViewModel.m in Sources */,
 				186B4F721E28B82400B4C0DF /* DYZBFollowViewController.m in Sources */,
 				18C5140D1E260B1E006F8D34 /* main.m in Sources */,
 			);

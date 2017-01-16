@@ -8,11 +8,15 @@
 
 #import "RecommendHeaderView.h"
 
+@interface RecommendHeaderView ()
+@property(nonatomic,weak) IBOutlet         UILabel *categroyName;
+@end
 @implementation RecommendHeaderView
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (void)setRemmondModel:(RecommendModel *)remmondModel
+{
+    _remmondModel = remmondModel;
+    _categroyName.text = _remmondModel.tag_name;
 }
 
 @end

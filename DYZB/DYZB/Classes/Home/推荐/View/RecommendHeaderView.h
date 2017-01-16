@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RecommendModel.h"
 @interface RecommendHeaderView : UICollectionViewCell
+@property(nonatomic, strong) RecommendModel    *remmondModel;
 
 @end

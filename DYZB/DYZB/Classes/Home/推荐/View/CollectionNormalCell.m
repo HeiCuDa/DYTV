@@ -9,9 +9,13 @@
 #import "CollectionNormalCell.h"
 
 @interface CollectionNormalCell()
-@property(nonatomic,weak) IBOutlet     UIImageView *defaultImgView;
 
+@property(nonatomic,weak) IBOutlet     UIImageView *defaultImgView;
+@property(nonatomic,weak) IBOutlet     UILabel     *nickNameLabel;
+@property(nonatomic,weak) IBOutlet     UILabel     *roomNameLabel;
+@property(nonatomic,weak) IBOutlet     UIButton    *onLineNumBtn;
 @end
+
 @implementation CollectionNormalCell
 
 - (void)awakeFromNib {
@@ -20,4 +24,13 @@
     _defaultImgView.clipsToBounds = YES;
 }
 
+- (void)setRoomModel:(RecomemndRoom *)roomModel
+{
+    _roomModel = roomModel;
+    
+    [self.defaultImgView sd_setImageWithURL:[NSURL URLWithString:roomModel.room_src] placeholderImage:[UIImage imageNamed:@"Img_default"]];
+    self.nickNameLabel.text = roomModel.nickname;
+    self.roomNameLabel.text = roomModel.room_name;
+    [self.onLineNumBtn setTitle:roomModel.online forState:UIControlStateNormal];
+}
 @end

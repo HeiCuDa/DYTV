@@ -50,6 +50,9 @@
                 <constraint firstItem="uOW-WS-oj7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="za3-OG-0p0"/>
             </constraints>
             <size key="customSize" width="289" height="50"/>
+            <connections>
+                <outlet property="categroyName" destination="SbY-AR-cMk" id="c0t-Sg-F0I"/>
+            </connections>
             <point key="canvasLocation" x="-26.5" y="54"/>
         </collectionViewCell>
     </objects>

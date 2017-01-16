@@ -15,7 +15,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="227" height="196"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="d10-5d-UHP"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="d10-5d-UHP"/>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_live_cate_normal" translatesAutoresizingMaskIntoConstraints="NO" id="bKZ-Hl-APv"/>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小码哥在线教育" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH7-Fe-9nm">
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -51,6 +51,9 @@
             <size key="customSize" width="227" height="196"/>
             <connections>
                 <outlet property="defaultImgView" destination="d10-5d-UHP" id="V3c-XT-R2V"/>
+                <outlet property="nickNameLabel" destination="Mbw-5J-q0d" id="T3W-Ki-FO0"/>
+                <outlet property="onLineNumBtn" destination="Zx6-qY-yYg" id="1XJ-UK-QMs"/>
+                <outlet property="roomNameLabel" destination="HH7-Fe-9nm" id="5e8-zC-DD8"/>
             </connections>
             <point key="canvasLocation" x="122.5" y="127"/>
         </collectionViewCell>

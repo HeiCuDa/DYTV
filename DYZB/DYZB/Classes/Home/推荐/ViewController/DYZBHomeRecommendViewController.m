@@ -7,6 +7,7 @@
 //
 #define kNormalCellID       @"DYZBHomeRecommendCellIdentifier"
 #define kRecommendHeaderID  @"RecommendHeaderView"
+#define KPrettyCellID       @"CollectionPrettyCell"
 
 #define kItemMargin  10
 #define kItemW       (SCREEN_WIDTH - 3*kItemMargin)/2
@@ -14,11 +15,17 @@
 #define kNormalItemH kItemW * 3 / 4
 #define kPrettyItemH kItemW * 4 / 3
 
+#import "RecommendModel.h"
+#import "HomeViewModel.h"
+#import "RecommendHeaderView.h"
+#import "CollectionPrettyCell.h"
 #import "CollectionNormalCell.h"
 #import "DYZBHomeRecommendViewController.h"
 
-@interface DYZBHomeRecommendViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface DYZBHomeRecommendViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
 @property(nonatomic, strong) UICollectionView    *collectionView;
+@property(nonatomic, strong) NSMutableArray     *recommendData;
 
 @end
 
@@ -35,7 +42,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
+    
+    __weak typeof(self) weakself = self;
+    [HomeViewModel requestRecommendData:^(NSDictionary * result) {
+        __strong typeof(self) strongself = weakself;
+        strongself.recommendData = [result objectForKey:@"recommend"];
+        [strongself.collectionView reloadData];
+    }];
 }
 
 - (void)viewDidLayoutSubviews
@@ -58,13 +71,13 @@
         layout.headerReferenceSize = CGSizeMake(SCREEN_WIDTH, kHeaderViewH);
         layout.sectionInset = UIEdgeInsetsMake(0, kItemMargin, 0, kItemMargin);
         
-        
         //2.创建UICollectionView
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
         _collectionView.dataSource = self;
+        _collectionView.delegate = self;
         [_collectionView registerNib:[UINib nibWithNibName:@"CollectionNormalCell" bundle:nil] forCellWithReuseIdentifier:kNormalCellID];
         [_collectionView registerNib:[UINib nibWithNibName:kRecommendHeaderID bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:kRecommendHeaderID];
-        
+        [_collectionView registerNib:[UINib nibWithNibName:@"CollectionPrettyCell" bundle:nil] forCellWithReuseIdentifier:KPrettyCellID];
     }
     return _collectionView;
 }
@@ -73,28 +86,51 @@
 #pragma mark ---------------------------UICollectionView DataSource Method--------------
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 12;
+    return _recommendData.count;
 }
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    if (section == 0) {
-        return 8;
-    }
-    return 4;
+    RecommendModel  *recomendModel = _recommendData[section];
+    return recomendModel.room_list.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CollectionNormalCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kNormalCellID forIndexPath:indexPath];
+    UICollectionViewCell *cell = nil;
+    
+    RecommendModel  *recomendModel = _recommendData[indexPath.section];
+    
+    if (indexPath.section == 1) {
+        cell = [collectionView dequeueReusableCellWithReuseIdentifier:KPrettyCellID forIndexPath:indexPath];
+        CollectionPrettyCell *prettyCell = (CollectionPrettyCell *)cell;
+        prettyCell.recommendRoom = recomendModel.room_list[indexPath.row];
+
+    }else
+    {
+        cell = [collectionView dequeueReusableCellWithReuseIdentifier:kNormalCellID forIndexPath:indexPath];
+        CollectionNormalCell *normalCell = (CollectionNormalCell *)cell;
+        normalCell.roomModel = recomendModel.room_list[indexPath.row];
+
+    }
+    
     return cell;
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
-    return [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:kRecommendHeaderID forIndexPath:indexPath];
+    RecommendHeaderView *recomnedHeader = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:kRecommendHeaderID forIndexPath:indexPath];
+    recomnedHeader.remmondModel = [_recommendData objectAtIndex:indexPath.section];
+    return recomnedHeader;
 }
 
-
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == 1) {
+        return  CGSizeMake(kItemW, kPrettyItemH);
+    }else{
+        return CGSizeMake(kItemW, kNormalItemH);
+    }
+}
 @end
