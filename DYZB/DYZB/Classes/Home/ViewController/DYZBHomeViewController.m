@@ -71,15 +71,14 @@
 
 - (void)setupPageContentView
 {
-    
     DYZBHomeGameViewController      *gameVC         =   [[DYZBHomeGameViewController alloc] init];
     DYZBHomePlayViewController      *playVC         =   [[DYZBHomePlayViewController alloc] init];
     DYZBHomeFunnyViewController     *funnyVC        =   [[DYZBHomeFunnyViewController alloc] init];
     DYZBHomeRecommendViewController *recommendVC    =   [[DYZBHomeRecommendViewController alloc] init];
     
     CGFloat contentY = CGRectGetMaxY(_titleView.frame);
-    _contentView = [[PageCotentView alloc] initWithFrame:CGRectMake(0, contentY, self.view.bounds.size.width, self.view.bounds.size.height - contentY - 44)
-                                                childVcs:@[gameVC,playVC,funnyVC,recommendVC]
+    _contentView = [[PageCotentView alloc] initWithFrame:CGRectMake(0, contentY, self.view.bounds.size.width, SCREEN_HEIGHT - TabBarHeight- NavBarHeight - 44)
+                                                childVcs:@[recommendVC,gameVC,funnyVC,playVC]
                                     parentViewController:self];
     _contentView.delegate = self;
     [self.view addSubview:_contentView];

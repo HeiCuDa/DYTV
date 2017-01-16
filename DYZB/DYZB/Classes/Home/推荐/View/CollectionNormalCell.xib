@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DYZBHomeRecommendCellIdentifier" id="gTV-IL-0wX" customClass="CollectionNormalCell">
+            <rect key="frame" x="0.0" y="0.0" width="227" height="196"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="227" height="196"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="d10-5d-UHP"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_live_cate_normal" translatesAutoresizingMaskIntoConstraints="NO" id="bKZ-Hl-APv"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小码哥在线教育" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HH7-Fe-9nm">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小码哥在线教育" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbw-5J-q0d">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx6-qY-yYg">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="11万在线" image="home_live_player_phone"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HH7-Fe-9nm" firstAttribute="top" secondItem="Mbw-5J-q0d" secondAttribute="bottom" constant="10" id="0OE-HA-vbp"/>
+                <constraint firstAttribute="trailing" secondItem="Zx6-qY-yYg" secondAttribute="trailing" constant="6" id="3Ee-LZ-odT"/>
+                <constraint firstItem="d10-5d-UHP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5wG-e2-8U8"/>
+                <constraint firstItem="HH7-Fe-9nm" firstAttribute="leading" secondItem="bKZ-Hl-APv" secondAttribute="trailing" constant="5" id="7nR-vE-VxS"/>
+                <constraint firstItem="HH7-Fe-9nm" firstAttribute="centerY" secondItem="bKZ-Hl-APv" secondAttribute="centerY" id="WqO-FI-BR4"/>
+                <constraint firstItem="Mbw-5J-q0d" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="X1t-Fh-ylp"/>
+                <constraint firstItem="d10-5d-UHP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bGO-2m-6lS"/>
+                <constraint firstItem="Zx6-qY-yYg" firstAttribute="centerY" secondItem="Mbw-5J-q0d" secondAttribute="centerY" id="fpe-bf-nM4"/>
+                <constraint firstAttribute="bottom" secondItem="d10-5d-UHP" secondAttribute="bottom" constant="40" id="gJm-UD-IiD"/>
+                <constraint firstItem="bKZ-Hl-APv" firstAttribute="top" secondItem="d10-5d-UHP" secondAttribute="bottom" constant="5" id="hgj-hT-gPu"/>
+                <constraint firstItem="bKZ-Hl-APv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="r5j-wR-S4e"/>
+                <constraint firstAttribute="trailing" secondItem="d10-5d-UHP" secondAttribute="trailing" id="vEN-qI-3vH"/>
+            </constraints>
+            <size key="customSize" width="227" height="196"/>
+            <connections>
+                <outlet property="defaultImgView" destination="d10-5d-UHP" id="V3c-XT-R2V"/>
+            </connections>
+            <point key="canvasLocation" x="122.5" y="127"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172" height="103"/>
+        <image name="home_live_cate_normal" width="14" height="14"/>
+        <image name="home_live_player_phone" width="14" height="14"/>
+    </resources>
+</document>

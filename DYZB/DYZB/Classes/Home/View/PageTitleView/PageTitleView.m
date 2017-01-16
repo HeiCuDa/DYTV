@@ -8,6 +8,15 @@
 
 #define kScrollLineH    2
 #define kTitleMargin    5
+
+#define kNormalRGB [UIColor colorWithRed:85/255.0 green:85/255.0 blue:85/255.0 alpha:1.0]
+#define kSelectRGB [UIColor colorWithRed:255/255.0 green:128/255.0 blue:0/255.0 alpha:1.0]
+
+
+#define kNormalTitleColor [UIColor colorWithRed:85/255.0 green:85/255.0 blue:85/255.0 alpha:1.0]
+#define kSelectTitleColor [UIColor colorWithRed:255.0/255.0 green:128/255.0 blue:0/255.0 alpha:1.0]
+
+
 #import "PageTitleView.h"
 
 @interface PageTitleView ()
